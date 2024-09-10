@@ -1,0 +1,27 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Django migration files
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore environment variable files (if using dotenv)
+.env
+
+# Ignore virtual environment directory
+venv/
+.env/
+
+# Ignore media and static files (if they are not managed via source control)
+media/
+static/
+
+# Ignore JetBrains IDE config
+.idea/
+
+# Ignore VSCode settings
+.vscode/
